@@ -7,7 +7,6 @@
  */
 static char font[] = "Dejavu Sans Mono:fontsize=12:antialias=true:autohint=false";
 static int borderpx = 2;
-static char shell[] = "/usr/bin/fish";
 static char *utmp = NULL;
 
 /* identification sequence returned in DA and DECID */
