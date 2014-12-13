@@ -5,9 +5,10 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char font[] = "Dejavu Sans Mono:fontsize=12:antialias=true:autohint=false";
+static char font[] = "Dejavu Sans Mono for Powerline:fontsize=12:antialias=true:autohint=false";
 static int borderpx = 2;
 static char *utmp = NULL;
+static char shell[] = "/usr/bin/fish";
 
 /* identification sequence returned in DA and DECID */
 static char vtiden[] = "\033[?6c";
